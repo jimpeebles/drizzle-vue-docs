@@ -74,11 +74,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()}`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "default"
+    theme: "dark"
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -91,13 +91,13 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg"
+  twitterImage: "img/undraw_tweetstorm.svg",
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
