@@ -68,3 +68,5 @@ new Vue({
   render: h => h(App)
 }).$mount("#app");
 ```
+
+You're now ready to use the plugin!
