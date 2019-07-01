@@ -2,5 +2,8 @@
 
 ```js
 yarn install
+
+cd website
+
 yarn start
 ```
